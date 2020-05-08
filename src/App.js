@@ -18,8 +18,7 @@ const useStyles = makeStyles((theme) => ({
 
 function App() {
   const classes = useStyles();
-  const preventDefault = (event) => event.preventDefault();
-
+  
   return (
     <Container maxWidth="sm">
       <Grid container spacing={3}>
@@ -29,7 +28,7 @@ function App() {
         <Grid item xs={12}>
           <Paper className={classes.paper}>
           <PictureAsPdfOutlinedIcon/>
-          <Link href="https://pdffilesagedcareanalysis.s3-ap-southeast-2.amazonaws.com/DebtToEquity2019.pdf" onClick={preventDefault}>
+          <Link href="https://pdffilesagedcareanalysis.s3-ap-southeast-2.amazonaws.com/DebtToEquity2019.pdf" >
           DebtToEquity-2019
       </Link>
           
