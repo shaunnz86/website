@@ -25,11 +25,23 @@ function App() {
         <Grid item xs={12}>
           <Paper className={classes.paper}>Aged Care Companies. Ratio Analysis</Paper>
         </Grid>
+
         <Grid item xs={12}>
           <Paper className={classes.paper}>
           <PictureAsPdfOutlinedIcon/>
           <Link href="https://pdffilesagedcareanalysis.s3-ap-southeast-2.amazonaws.com/DebtToEquity2019.pdf" >
           DebtToEquity-2019
+      </Link>
+          
+            </Paper>
+        </Grid>
+
+          
+        <Grid item xs={12}>
+          <Paper className={classes.paper}>
+          <PictureAsPdfOutlinedIcon/>
+          <Link href="https://pdffilesagedcareanalysis.s3-ap-southeast-2.amazonaws.com/InterestCoverage2019.pdf" >
+          InterestCoverage-2019
       </Link>
           
             </Paper>
